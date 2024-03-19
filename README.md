@@ -49,7 +49,7 @@ the two adjacent images.
 - **Planar transformation Assumption**: the accuracy of image alignment using homography depends on
 the assumption that the scene undergoes planar transformations. This constraints the use of the algorithm
 in non-planar or complex 3D scenes. For instance, if the user takes photos changing dramatically in position
-and orientation, the algorithm’s accuracy may be affected drastically.
+and orientation, the algorithm's accuracy may be affected drastically.
 
 - **Static scene**: the algorithm success is tied on the assumption of a static scene. The presence of moving
 elements such as people, cars, or big objects can significantly impact correct keypoint matching. Dynamic
